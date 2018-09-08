@@ -1,0 +1,30 @@
+pipexec (2.5.5-2) unstable; urgency=medium
+
+  * debian/control: add salsa URLs
+  * debian/control: bump standard to 4.2.1 (no changes)
+  * debian/control: use dh11
+  * debian/rules: remove get-orig-source target
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 08 Sep 2018 16:00:00 +0200
+
+pipexec (2.5.5-1) unstable; urgency=medium
+
+  * new upstream version
+  * debian/control: bump standard to 3.9.8 (no changes)
+  * debian/control: fix typo in description (Closes: #846662)
+  * debian/control: use secure VCS URLs
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 24 Jan 2017 18:00:00 +0100
+
+pipexec (2.5.4-1) unstable; urgency=medium
+
+  * new upstream version (Closes: #790272)
+  * change section from libs to utils (Closes: #781588)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Thu, 23 Jul 2015 18:00:00 +0200
+
+pipexec (2.5.2-1) unstable; urgency=low
+
+  * Initial package. (Closes: #781400)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Thu, 19 Mar 2015 19:00:00 +0100

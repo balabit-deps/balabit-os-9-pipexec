@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_install:
+	dh_install
+	find
+	rm ./debian/pipexec/usr/bin/ptest
+	rm -rf ./debian/pipexec/bin

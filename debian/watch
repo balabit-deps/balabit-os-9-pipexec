@@ -1,0 +1,2 @@
+version=3
+https://github.com/flonatel/pipexec/releases /flonatel/pipexec/releases/download/[\d.]*/pipexec-([\d.]*)\.tar\.xz
